@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: de57249f6f9639b4bbc13e85587cedfa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sobread
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 62aaf384e3824e247a3dd3cc2f9223dc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
