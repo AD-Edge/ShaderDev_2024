@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140650d5229730a46bde77ef0be3e989, type: 3}
   m_Name: Blit
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   blitMaterialCamera: {fileID: 0}
   grabMaterialFromCamera: 0
   settings:
@@ -56,10 +56,10 @@ MonoBehaviour:
   m_AssetVersion: 1
   m_OpaqueLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_TransparentLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_DefaultStencilState:
     overrideStencilState: 0
     stencilReference: 0
