@@ -35,6 +35,16 @@ public class TintRenderFeature : ScriptableRendererFeature
             renderPassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
         }
 
+        public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
+        {
+            base.OnCameraSetup(cmd, ref renderingData);
+        }
+
+        public override void OnCameraCleanup(CommandBuffer cmd)
+        {
+            base.OnCameraCleanup(cmd);
+        }
+
         public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
         {
 
